@@ -48,7 +48,7 @@
           p.fname = fname;
           p.lname = lname;
           p.height = getQuantityValueAndUnit(height[0]);
-          p.address = address;
+          p.address-postalcode = address;
 
           if (typeof systolicbp != 'undefined')  {
             p.systolicbp = systolicbp;
